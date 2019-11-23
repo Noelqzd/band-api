@@ -1,0 +1,14 @@
+{
+  
+  "db": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://TacosChon:XZ0M4s4anXconAQx@cluster0-cse0v.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

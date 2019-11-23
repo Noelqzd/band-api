@@ -1,0 +1,41 @@
+{
+  "name": "band",
+  "plural": "bands",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "bio": {
+      "type": "string",
+      "required": false
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "videos": {
+      "type": [
+        "string"
+      ]
+    },
+    "location": {
+      "type": "object"
+    },
+    "createdAt": {
+      "type": "date"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
