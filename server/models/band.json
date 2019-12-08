@@ -56,6 +56,7 @@
       "permission": "ALLOW",
       "property": [
         "find",
+        "findById",
         "create",
         "login",
         "logout"
